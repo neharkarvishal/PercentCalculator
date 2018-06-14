@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">PCalculator</string>
     <string name="action_settings">Settings</string>
+    <string name="pcalculatorstring">PCalculator</string>
+    <string name="enter_percerntagestring">Enter percerntage…</string>
+    <string name="enter_numberstring">Enter Number…</string>
+    <string name="calculate_resultstring">Calculate Result</string>
+    <string name="resultstring">RESULT</string>
 </resources>

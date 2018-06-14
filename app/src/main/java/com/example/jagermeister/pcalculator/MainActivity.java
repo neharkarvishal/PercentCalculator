@@ -1,6 +1,5 @@
 package com.example.jagermeister.pcalculator;
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -33,11 +32,11 @@ public class MainActivity extends AppCompatActivity {
         btnCal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                txtRes.setBackgroundColor(Color.LTGRAY);
+                /*txtRes.setBackgroundColor(Color.LTGRAY);
                 float percentNumVal = Float.parseFloat(edtEnterPer.getText().toString());
                 float decimalVal = percentNumVal/100;
                 float result = decimalVal* Float.parseFloat(edtEnterNum.getText().toString());
-                txtRes.setText(Float.toString(result));
+                txtRes.setText(Float.toString(result)); */
 
                 txtRes.setText(Float.toString( (Float.parseFloat(edtEnterPer.getText().toString())/100)* Float.parseFloat(edtEnterNum.getText().toString())));
 
